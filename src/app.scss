@@ -1,4 +1,50 @@
+@import'./variables.scss';
+
 .App{
     min-height: 150vh !important;
-    background-color:#072743 ;
+    background-color:$color-main ;
+   
 }
+
+// general styles 
+
+.hovered-text{
+    color:$color-green !important ;
+    transition: color .3s linear !important;
+}
+.hovered-text:hover{
+  
+   color: $color-white!important;
+ 
+}
+
+.btn-special{
+    border:1px solid  $color-green;
+    border-radius: 5px;
+    max-width: 95px;
+    text-align: center;
+   transition:  background-color .3s linear !important;
+
+    a{
+        color: $color-green !important;
+        padding: 10px 25px;
+        
+    }
+}
+
+.btn-special:hover{
+    background-color: $color-hovered-green;
+}
+
+
+
+.color-white{
+    color:$color-white
+}
+.color-grey{
+    color:$color-grey
+}
+
+
+
+
