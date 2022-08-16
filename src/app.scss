@@ -21,7 +21,7 @@
 .btn-special{
     border:1px solid  $color-green;
     border-radius: 5px;
-    max-width: 95px;
+   background-color: $color-main;
     text-align: center;
    transition:  background-color .3s linear !important;
 
@@ -42,9 +42,15 @@
     color:$color-white
 }
 .color-grey{
-    color:$color-grey
+    color:$color-grey !important
 }
 
+
+.ruler{
+    width: 250px;
+    border: .5px solid #c4ffdd67;
+    height: 0px;
+}
 
 
 
