@@ -16,7 +16,7 @@ export default function Header() {
           <a className="nav-link active hovered-text" aria-current="page" href="#about">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link hovered-text" href="#">Experience</a>
+          <a className="nav-link hovered-text" href="#experience">Experience</a>
         </li>
         <li className="nav-item">
           <a className="nav-link hovered-text" href="#">Work</a>

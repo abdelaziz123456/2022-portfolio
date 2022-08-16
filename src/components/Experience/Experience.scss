@@ -1,0 +1,14 @@
+.experience{
+    min-height: 100vh;
+
+
+    display: flex;
+    justify-content: center;
+    padding:10px 100px;
+    .content {
+  
+      margin-top: 180px;
+      display: flex;
+      max-width: 1000px !important;
+    }
+}
