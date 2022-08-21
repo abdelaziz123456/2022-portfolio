@@ -7,13 +7,15 @@
   justify-content: center;
   padding: 10px 100px;
   .content {
-    min-width: 500px;
+    min-width: 900px;
     margin-top: 180px;
     display: flex;
-    max-width: 1000px !important;
+   
+   
 
     .tab-group {
-      border-left: 1px solid $color-green;
+   
+      
 
       .tab-special {
         border: 0;
@@ -38,6 +40,9 @@
 
     .tab-content {
       color: $color-grey;
+      li{
+        margin-top: 15px;
+      }
     }
   }
 }
