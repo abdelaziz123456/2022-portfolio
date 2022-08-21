@@ -19,7 +19,7 @@ export default function Header() {
           <a className="nav-link hovered-text" href="#experience">Experience</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link hovered-text" href="#">Work</a>
+          <a className="nav-link hovered-text" href="#work">Work</a>
         </li>
         <li className="nav-item">
           <a className="nav-link hovered-text" href='#'>Contact</a>
