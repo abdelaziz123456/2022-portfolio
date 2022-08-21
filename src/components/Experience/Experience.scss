@@ -1,14 +1,43 @@
-.experience{
-    min-height: 100vh;
+@import "../../variables.scss";
 
+.experience {
+  min-height: 100vh;
 
+  display: flex;
+  justify-content: center;
+  padding: 10px 100px;
+  .content {
+    min-width: 500px;
+    margin-top: 180px;
     display: flex;
-    justify-content: center;
-    padding:10px 100px;
-    .content {
-  
-      margin-top: 180px;
-      display: flex;
-      max-width: 1000px !important;
+    max-width: 1000px !important;
+
+    .tab-group {
+      border-left: 1px solid $color-green;
+
+      .tab-special {
+        border: 0;
+        border-left: 1px solid $color-green;
+        outline: none !important;
+
+        width: 150px;
+        height: 50px;
+        background-color: $color-main;
+        text-align: center;
+        transition: background-color 0.3s linear !important;
+        color: $color-green !important;
+        a {
+          color: $color-green !important;
+          padding: 10px 25px;
+        }
+        &:hover {
+          background-color: $color-hovered-green;
+        }
+      }
     }
+
+    .tab-content {
+      color: $color-grey;
+    }
+  }
 }

@@ -6,13 +6,13 @@ export default function Experience() {
       <div className="content">
         <div className="d-flex align-items-start">
           <div
-            className="nav flex-column nav-pills me-3"
+            className="nav flex-column tab-group nav-pills me-3"
             id="v-pills-tab"
             role="tablist"
             aria-orientation="vertical"
           >
             <button
-              className="btn-special active"
+              className="tab-special active"
               id="v-pills-home-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-home"
@@ -21,10 +21,10 @@ export default function Experience() {
               aria-controls="v-pills-home"
               aria-selected="true"
             >
-              Home
+              AXLR8
             </button>
             <button
-              className="btn-special"
+              className="tab-special"
               id="v-pills-profile-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-profile"
@@ -33,10 +33,10 @@ export default function Experience() {
               aria-controls="v-pills-profile"
               aria-selected="false"
             >
-              Profile
+              Silicon Arena
             </button>
             <button
-              className="btn-special"
+              className="tab-special"
               id="v-pills-messages-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-messages"
@@ -48,7 +48,7 @@ export default function Experience() {
               Messages
             </button>
             <button
-              className="btn-special"
+              className="tab-special"
               id="v-pills-settings-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-settings"
@@ -57,7 +57,7 @@ export default function Experience() {
               aria-controls="v-pills-settings"
               aria-selected="false"
             >
-              Settings
+              Education
             </button>
           </div>
           <div className="tab-content" id="v-pills-tabContent">
@@ -67,7 +67,9 @@ export default function Experience() {
               role="tabpanel"
               aria-labelledby="v-pills-home-tab"
             >
-               hello ...
+              <h4 className="color-white">
+                Front End Developer <span className="color-green">AXLR8</span>
+              </h4>
             </div>
             <div
               className="tab-pane fade"
@@ -75,7 +77,10 @@ export default function Experience() {
               role="tabpanel"
               aria-labelledby="v-pills-profile-tab"
             >
-              ...
+              <h4 className="color-white">
+                Front End Developer{" "}
+                <span className="color-green">Silicon Arena</span>
+              </h4>
             </div>
             <div
               className="tab-pane fade"

@@ -33,7 +33,7 @@ export default function About() {
                 ))
               }
             </ul>
-            <ul className="ms-5">
+            <ul className="ms-4">
               {
                 list2.map(skill=>(
                   <Skill image={skill.image} name={skill.name}/>
