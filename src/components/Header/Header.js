@@ -22,10 +22,10 @@ export default function Header() {
           <a className="nav-link hovered-text" href="#work">Work</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link hovered-text" href='#'>Contact</a>
+          <a className="nav-link hovered-text" href='#contact'>Contact</a>
         </li>
         <li className="nav-item btn-special">
-          <a className="nav-link  " href='https://drive.google.com/file/d/1AJ93xhQOfleHIYIGPymvZegnSABbf9q7/view' target={'_blank'}>Resume</a>
+          <a className="nav-link  " href={process.env.PUBLIC_URL +'cv/abdelaziz mohamed .pdf'} target={'_blank'} download>Resume</a>
         </li>
       </ul>
     </div>

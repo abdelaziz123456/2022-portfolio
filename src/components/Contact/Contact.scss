@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.contact{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .icons{
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        justify-content: space-around;
+
+        
+    }
+}
