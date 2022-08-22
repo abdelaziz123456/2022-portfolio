@@ -26,7 +26,7 @@ export let projects = [
       { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
     ],
     images: [
-      "/img/projects/aqar1.png",
+      "/img/projects/aqar1-min.png",
       "/img/projects/aqar2.png",
       "/img/projects/aqar3.png",
     ],
@@ -44,7 +44,7 @@ export let projects = [
       { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
     ],
     images: [
-      "/img/projects/shopper1.png",
+      "/img/projects/shopper1-min.png",
       "/img/projects/shopper2.png",
       "/img/projects/shopper3.png",
     ],
@@ -62,7 +62,7 @@ export let projects = [
       { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
     ],
     images: [
-      "/img/projects/weather1.png",
+      "/img/projects/weather1-min.png",
       "/img/projects/weather2.png",
       "/img/projects/weather3.png",
     ],
@@ -80,7 +80,7 @@ export let projects = [
       { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
     ],
     images: [
-      "/img/projects/google1.png",
+      "/img/projects/google1-min.png",
       "/img/projects/google2.png",
       "/img/projects/google3.png",
     ],
@@ -97,7 +97,7 @@ export let projects = [
       { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
     ],
     images: [
-      "/img/projects/movie1.png",
+      "/img/projects/movie1-min.png",
       "/img/projects/movie2.png",
       "/img/projects/movie3.png",
     ],
@@ -115,7 +115,7 @@ export let projects = [
       { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
     ],
     images: [
-      "/img/projects/product1.png",
+      "/img/projects/product1-min.png",
       "/img/projects/product2.png",
       "/img/projects/product3.png",
     ],
@@ -131,7 +131,7 @@ export let projects = [
       { name: "MATERIAL UI ", image: "/img/skills/material-ui-1.svg" },
     ],
     images: [
-      "/img/projects/dashboard1.png",
+      "/img/projects/dashboard1-min.png",
       "/img/projects/dashboard2.png",
       "/img/projects/dashboard3.png",
     ],
@@ -150,7 +150,7 @@ export let projects = [
       { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
     ],
     images: [
-      "/img/projects/book1.png",
+      "/img/projects/book1-min.png",
       "/img/projects/book1.png",
       "/img/projects/book1.png",
     ],
@@ -167,12 +167,12 @@ export let projects = [
       { name: "REACT JS", image: "/img/skills/react.svg" },
     ],
     images: [
-      "/img/projects/reminder1.png",
+      "/img/projects/reminder1-min.png",
       "/img/projects/reminder1.png",
       "/img/projects/reminder1.png",
     ],
-    code: "",
-    live: "",
+    code: "https://github.com/abdelaziz123456/reminder-app/tree/master",
+    live: "https://abdelaziz123456.github.io/reminder-app/",
   },
   {
     id: 10,
@@ -184,7 +184,7 @@ export let projects = [
       { name: "SASS", image: "/img/skills/sass-1.svg" },
     ],
     images: [
-      "/img/projects/tours1.png",
+      "/img/projects/tours1-min.png",
       "/img/projects/tours2.png",
       "/img/projects/tours3.png",
     ],

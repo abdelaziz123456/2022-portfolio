@@ -15,7 +15,7 @@ export default function Work() {
         <div className="projects row d-flex justify-content-center mt-5">
 {
     projects.map((project)=>(
-        <Project image={project.images[0]}    name={project.name}/>
+        <Project image={project.images[0]} usedTools={project.usedTools} description={project.description}    name={project.name} live={project.live} code={project.code}/>
     ))
 }
         </div>

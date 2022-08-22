@@ -7,7 +7,9 @@
    display: flex;
   justify-content:center;
   align-items: center;
-
+.row{
+  --bs-gutter-x: auto;
+}
     .content{
    width: 100%;
         @media (min-width:900px) {

@@ -3,8 +3,8 @@ import "./About.scss";
 import { skills } from "../../data";
 import Skill from "../skill/Skill";
 export default function About() {
-  let list1=skills.slice(0,6)
-  let list2=skills.slice(6)
+  let list1=skills.slice(0,Math.ceil(skills.length/2))
+  let list2=skills.slice(Math.ceil(skills.length/2))
   return (
     <div className="about" id="about">
       <div className="content">
