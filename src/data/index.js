@@ -23,7 +23,8 @@ export let projects = [
     usedTools: [
       { name: "REACT JS", image: "/img/skills/react.svg" },
       { name: "SASS", image: "/img/skills/sass-1.svg" },
-      { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
+      { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg"} ,
+      {name: "Firebase", image: "/img/skills/firebase-1.svg" },
     ],
     images: [
       "/img/projects/aqar1-min.png",
