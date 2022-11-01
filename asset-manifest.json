@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/2022-portfolio/static/css/main.2f266de9.css",
-    "main.js": "/2022-portfolio/static/js/main.056e3ff8.js",
+    "main.css": "/2022-portfolio/static/css/main.39e64fe0.css",
+    "main.js": "/2022-portfolio/static/js/main.8515469b.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/2022-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/2022-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/2022-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/2022-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/2022-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/2022-portfolio/index.html",
-    "main.2f266de9.css.map": "/2022-portfolio/static/css/main.2f266de9.css.map",
-    "main.056e3ff8.js.map": "/2022-portfolio/static/js/main.056e3ff8.js.map"
+    "main.39e64fe0.css.map": "/2022-portfolio/static/css/main.39e64fe0.css.map",
+    "main.8515469b.js.map": "/2022-portfolio/static/js/main.8515469b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f266de9.css",
-    "static/js/main.056e3ff8.js"
+    "static/css/main.39e64fe0.css",
+    "static/js/main.8515469b.js"
   ]
 }
