@@ -4,8 +4,9 @@
 .project {
     max-width: 450px;
    
+   
   .content {
-    min-height: 500px;
+    min-height: 650px;
     background-color: $color-project;
     animation-name: unhover;
     animation-timing-function: ease-in-out;
@@ -57,5 +58,9 @@
       }
     }
   
+  }
+
+  .img-fluid{
+   height: 300px;
   }
 }
