@@ -19,6 +19,18 @@ export default function Experience() {
             >
               <button
                 className="tab-special active"
+                id="v-pills-ejada-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-ejada"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-ejada"
+                aria-selected="true"
+              >
+                Ejada
+              </button>
+              <button
+                className="tab-special "
                 id="v-pills-home-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#v-pills-home"
@@ -67,16 +79,36 @@ export default function Experience() {
               </button>
             </div>
             <div className="tab-content" id="v-pills-tabContent">
-              <div
+            <div
                 className="tab-pane fade show active"
+                id="v-pills-ejada"
+                role="tabpanel"
+                aria-labelledby="v-pills-ejada-tab"
+              >
+                <h4 className="color-white">
+                  Front End Developer -React Native- <span className="color-green">Ejada</span>
+                </h4>
+                <p className="text-sm color-grey my-4">November 2022 - present</p>
+
+                <ul>
+                  <li>Develop cress platform apps with react native </li>
+                  <li>
+                    Optimize application for maximum speed and scalability
+                  </li>
+                  <li>Collaborate with other team members and stakeholders</li>
+                  <li>Fixing bugs and testing for usability</li>
+                </ul>
+              </div>
+              <div
+                className="tab-pane fade show "
                 id="v-pills-home"
                 role="tabpanel"
                 aria-labelledby="v-pills-home-tab"
               >
                 <h4 className="color-white">
-                  Front End Developer <span className="color-green">AXLR8</span>
+                  Front End Developer -React js- <span className="color-green">AXLR8</span>
                 </h4>
-                <p className="text-sm color-grey my-4">March 2022 - present</p>
+                <p className="text-sm color-grey my-4">March 2022 - November 2022</p>
 
                 <ul>
                   <li>Develop websites with react js</li>

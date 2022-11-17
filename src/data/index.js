@@ -54,6 +54,22 @@ export let projects = [
   },
   {
     id: 3,
+    name: "Food App - react native -",
+    description:
+      "it's An app where you find many recipes for different meals , you can also set filters and add meals to your favourite list  ",
+    usedTools: [
+      { name: "REACT NATIVE", image: "/img/skills/react.svg" },
+      
+    ],
+    images: [
+      "/img/projects/food.png",
+    
+    ],
+    code: "https://github.com/abdelaziz123456/meals-app",
+    live: "https://youtu.be/02gkCOrztH0",
+  },
+  {
+    id: 4,
     name: "Guess The Number Game - react native -",
     description:
       "it's a game where you select a number and try to get it by guessing ",
@@ -69,7 +85,7 @@ export let projects = [
     live: "https://youtu.be/znMzbf-AGn4",
   },
   {
-    id: 4,
+    id: 5,
     name: "Weather App",
     description:
       "it's an app used to know weather of any city for the next three days",
@@ -88,7 +104,7 @@ export let projects = [
   },
   
   {
-    id: 5,
+    id: 6,
     name: "Google Keep",
     description:
       "it is cloning of google keep notes in which you can add ,remove or modify notes",
@@ -106,7 +122,7 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/google-keep/",
   },
   {
-    id: 6,
+    id: 7,
     name: "Movie App",
     description:
       "it's an app used to search and show details about any film you want and you can directly go to it's page on imdb ",
@@ -123,7 +139,7 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/movie-app/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Products Dashboard",
     description:
       "it's an app used to add products with their details and images , remove or update them  ",
@@ -141,7 +157,7 @@ export let projects = [
     live: "https://gitlab.com/abdelazizmohamed1233/products-dashboard",
   },
   {
-    id: 8,
+    id: 9,
     name: "Dashboard",
     description: "dashboard shows details about users and their statistics",
     usedTools: [
@@ -157,7 +173,7 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/dashboard-project/",
   },
   {
-    id: 9,
+    id: 10,
     name: "Booklist App",
     description:
       "it's an app used to make a list of books , you can add or remove the books in this list ",
@@ -176,7 +192,7 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/booklist-app/",
   },
   {
-    id: 10,
+    id: 11,
     name: "Reminder App",
     description:
       "it's reminder app used to add todos notes with description and date",
@@ -193,7 +209,7 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/reminder-app/",
   },
   {
-    id: 11,
+    id: 12,
     name: "Natours  App",
     description: "landing page for  tours company ",
     usedTools: [
