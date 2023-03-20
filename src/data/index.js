@@ -12,19 +12,21 @@ export let skills = [
   { name: "NEXT JS", image: "/img/skills/next-js.svg" },
   { name: "TAILWIND ", image: "/img/skills/tailwind-css-2.svg" },
   { name: "JQUERY ", image: "/img/skills/jquery-4.svg" },
+  { name: "FIREBASE", image: "/img/skills/firebase-1.svg" },
 ];
 
 export let projects = [
   {
     id: 1,
     name: "Aqarmap",
+    type: "web",
     description:
       "Aqar Map is a real estate web app used to sell , buy and rent apartments .",
     usedTools: [
       { name: "REACT JS", image: "/img/skills/react.svg" },
       { name: "SASS", image: "/img/skills/sass-1.svg" },
-      { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg"} ,
-      {name: "Firebase", image: "/img/skills/firebase-1.svg" },
+      { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },
+      { name: "Firebase", image: "/img/skills/firebase-1.svg" },
     ],
     images: [
       "/img/projects/aqar1-min.png",
@@ -37,6 +39,7 @@ export let projects = [
   {
     id: 2,
     name: "Shopper E-commerce",
+    type: "web",
     description:
       "Shopper Marketplace is E-commerce web app by which you can add product to cart or favourite list",
     usedTools: [
@@ -54,39 +57,44 @@ export let projects = [
   },
   {
     id: 3,
-    name: "Food App - react native -",
+    name: "Expense Tracker",
+    type: "mobile",
     description:
-      "it's An app where you find many recipes for different meals , you can also set filters and add meals to your favourite list  ",
+      "it's An app where you can use to track your expenses , you can authenticate and use realtime database . all these features using firebase  ",
     usedTools: [
       { name: "REACT NATIVE", image: "/img/skills/react.svg" },
-      
+      { name: "Firebase", image: "/img/skills/firebase-1.svg" },
     ],
-    images: [
-      "/img/projects/food.png",
-    
-    ],
+    images: ["/img/projects/expense.png"],
+    code: "https://github.com/abdelaziz123456/expense-tracker",
+    live: "https://www.youtube.com/watch?v=zdlkTtU94Wg",
+  },
+  {
+    id: 4,
+    name: "Food App",
+    type: "mobile",
+    description:
+      "it's An app where you find many recipes for different meals , you can also set filters and add meals to your favourite list  ",
+    usedTools: [{ name: "REACT NATIVE", image: "/img/skills/react.svg" }],
+    images: ["/img/projects/food.png"],
     code: "https://github.com/abdelaziz123456/meals-app",
     live: "https://youtu.be/02gkCOrztH0",
   },
   {
-    id: 4,
-    name: "Guess The Number Game - react native -",
+    id: 5,
+    name: "Guess The Number Game ",
+    type: "mobile",
     description:
       "it's a game where you select a number and try to get it by guessing ",
-    usedTools: [
-      { name: "REACT NATIVE", image: "/img/skills/react.svg" },
-      
-    ],
-    images: [
-      "/img/projects/guessTheGame.png",
-    
-    ],
+    usedTools: [{ name: "REACT NATIVE", image: "/img/skills/react.svg" }],
+    images: ["/img/projects/guessTheGame.png"],
     code: "https://github.com/abdelaziz123456/guessNumber-reactNative",
     live: "https://youtu.be/znMzbf-AGn4",
   },
   {
-    id: 5,
+    id: 6,
     name: "Weather App",
+    type: "web",
     description:
       "it's an app used to know weather of any city for the next three days",
     usedTools: [
@@ -102,10 +110,11 @@ export let projects = [
     code: "https://github.com/abdelaziz123456/weather-webapp",
     live: "https://abdelaziz123456.github.io/weather-webapp/",
   },
-  
+
   {
-    id: 6,
+    id: 7,
     name: "Google Keep",
+    type: "web",
     description:
       "it is cloning of google keep notes in which you can add ,remove or modify notes",
     usedTools: [
@@ -122,8 +131,9 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/google-keep/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Movie App",
+    type: "web",
     description:
       "it's an app used to search and show details about any film you want and you can directly go to it's page on imdb ",
     usedTools: [
@@ -139,8 +149,9 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/movie-app/",
   },
   {
-    id: 8,
+    id: 9,
     name: "Products Dashboard",
+    type: "web",
     description:
       "it's an app used to add products with their details and images , remove or update them  ",
     usedTools: [
@@ -157,8 +168,9 @@ export let projects = [
     live: "https://gitlab.com/abdelazizmohamed1233/products-dashboard",
   },
   {
-    id: 9,
+    id: 10,
     name: "Dashboard",
+    type: "web",
     description: "dashboard shows details about users and their statistics",
     usedTools: [
       { name: "REACT JS", image: "/img/skills/react.svg" },
@@ -173,8 +185,9 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/dashboard-project/",
   },
   {
-    id: 10,
+    id: 11,
     name: "Booklist App",
+    type: "web",
     description:
       "it's an app used to make a list of books , you can add or remove the books in this list ",
     usedTools: [
@@ -192,8 +205,9 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/booklist-app/",
   },
   {
-    id: 11,
+    id: 12,
     name: "Reminder App",
+    type: "web",
     description:
       "it's reminder app used to add todos notes with description and date",
     usedTools: [
@@ -209,8 +223,9 @@ export let projects = [
     live: "https://abdelaziz123456.github.io/reminder-app/",
   },
   {
-    id: 12,
+    id: 13,
     name: "Natours  App",
+    type: "web",
     description: "landing page for  tours company ",
     usedTools: [
       { name: "Bootstrap", image: "/img/skills/bootstrap-5-1.svg" },

@@ -1,22 +1,46 @@
-
 @import "../../variables.scss";
 
-.work{
+.work {
   min-height: 100vh;
- 
-   display: flex;
-  justify-content:center;
+
+  display: flex;
+  justify-content: center;
   align-items: center;
-.row{
-  --bs-gutter-x: auto;
-}
-    .content{
-   width: 100%;
-        @media (min-width:900px) {
-            max-width: 900px;
-          }
+  .row {
+    --bs-gutter-x: auto;
+  }
+
+  .tab-group {
+    justify-content: center;
+    margin-top: 40px;
+    .selected {
+      background-color: $color-hovered-green;
     }
-   
+    .tab-special {
+      border: 0;
+      border-left: 1px solid $color-green;
+      border-right: 1px solid $color-green;
+      outline: none !important;
 
-
+      width: 150px;
+      height: 50px;
+      background-color: $color-main;
+      text-align: center;
+      transition: background-color 0.3s linear !important;
+      color: $color-green !important;
+      a {
+        color: $color-green !important;
+        padding: 10px 25px;
+      }
+      &:hover {
+        background-color: $color-hovered-green;
+      }
+    }
+  }
+  .content {
+    width: 100%;
+    @media (min-width: 900px) {
+      max-width: 900px;
+    }
+  }
 }
